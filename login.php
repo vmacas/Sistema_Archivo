@@ -1,4 +1,4 @@
-<?php
+﻿<?php
    session_start();
    include 'conexion.php';
    // filter incoming values
@@ -47,7 +47,7 @@
   <body>
     <?php if (isset($error)) { echo $error; } ?>  
     <h1>PROTOCOLO DIGITAL</h2>
-	<h2>Notaría Segunda del Cantón Durán</h2>
+	<h2>Notaría Segunda del Cantón Durán!</h2>
 	<form id="frmLogin" action="login.php" method="post">
   	  <fieldset>
         <legend>Login</legend>
