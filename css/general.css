@@ -1,0 +1,57 @@
+/* Cascading Style Sheet */
+body{
+ background: #ede4d4; /*E0CFC2*/
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  font-size: small;
+}
+
+div {
+	    padding:5px;
+	}
+	  .nombre {
+	  	text-transform: uppercase;
+	  }
+	  .apellido {
+	  	text-transform: uppercase;
+	  }
+
+
+
+/*Seleccionar el input que tiene el foco*/
+/*input:focus, select:focus {
+	border: 2px solid #CACACA;
+	background: #E8EAF8;
+}*/
+
+table {
+  border-collapse: collapse;
+  font-size:90%;
+  
+}
+
+thead th{
+		background:#E0C392;
+		text-align:left;
+		font-weight:normal;
+	}
+
+tbody th{
+  text-align:left;
+  background:#69c;
+}
+
+a { 
+  text-decoration:none 
+}
+
+#cabecera{
+	background:#704B0B;
+	height: 35px;
+}
+#texto_cabecera{
+	color:#E6D6D7;
+}
+
+
+
+

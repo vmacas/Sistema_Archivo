@@ -1,0 +1,152 @@
+/* Cascading Style Sheet */
+body{
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  font-size: small;
+}
+
+.ingresos{
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  font-size: small;
+}
+
+.error{
+	 font-size: 11px;
+	 color: red;
+}
+
+.errorV{
+	 font-size: 11px;
+	 color: red;
+}
+
+#formato, #formato2, #formato3{
+	 font-size: 10px;
+	 float: none;
+}
+
+/*Controlar div del formulario*/
+div {
+	margin: .2em 0;
+}
+div label {
+	width: 11%;
+	float: left;
+}
+
+/*Seleccionar el input que tiene el foco*/
+input:focus.ingresos, textarea:focus.ingresos, select:focus.ingresos {
+	border: 2px solid #CACACA;
+	background: #E8EAF8;
+}
+
+/* Tablas */
+.datos{
+  border: 3px solid #ccc;
+  width: 830px;
+  padding: 0;
+  
+}
+
+.datos thead tr th {
+  font: 14px 'MS Sans Serif', Geneva, sans-serif;
+  /*color: #666;*/
+  text-align: left;
+  background-color: #CCD8FF;
+  padding: 0.2em;
+}
+
+.datos tbody tr td {
+  font: 10px 'MS Sans Serif', Geneva, sans-serif;
+  /*color: #666;*/
+  text-align: left;
+  border-top: 2px solid #eee;
+  padding: 0.5em;
+}
+
+#contenedorL {
+	/*border: 4px solid #d0d0d0;*/
+	text-align: center;
+	width: 450px;
+	height:850px;
+	margin: 0 auto;
+}
+#contenidoL{
+	/*border: 1px solid #d0d0d0;*/
+	
+	width: 350px;
+	height:650px;
+	margin: 0 auto;
+	
+}
+
+/*Layout a 2 columnas con cabecera y pie de pagina*/
+#contenedor {
+	width: 1000px;
+	margin: 0 auto;
+}
+#cabecera {
+	background-color:#93A5C4;
+}
+#menu1 {
+	float: left;
+	width: 150px;
+	height:450px;
+	
+}
+#contenido {
+	float: left;
+	width: 850px;
+}
+#pie {
+	clear: both;
+	background-color:#93A5C4;
+	height:10px;
+}
+
+/*Respuestas del sistema*/
+.respuesta{
+	width: 180px;
+	border: 1px solid #AB1919;
+	background-color:#F9C9B2;
+}
+
+/*Para el menu*/
+#menu{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:1px 1px 3px #888;
+	-moz-box-shadow:1px 1px 3px #888;
+}
+#menu li{border-bottom:1px solid #FFF;}
+#menu ul li, #menu li:last-child{border:none}	
+a{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	font-family:'Helvetica', Arial, sans-serif;
+	font-size:13px;
+	padding:3px 5px;
+	text-shadow:1px 1px 1px #325179;
+}
+#menu a:hover{
+	color:#F9B855;
+	-webkit-transition: color 0.2s linear;
+}
+#menu ul a{background-color:#6594D1;}
+#menu ul a:hover{
+	background-color:#FFF;
+	color:#2961A9;
+	text-shadow:none;
+	-webkit-transition: color, background-color 0.2s linear;
+}
+ul{
+	display:block;
+	background-color:#4E5869;
+	margin:0;
+	padding:0;
+	width:130px;
+	list-style:none;
+}
+#menu ul{background-color:#6594D1;}
+#menu li ul {display:none;}

@@ -1,0 +1,33 @@
+/* Cascading Style Sheet */
+
+#wrapper {
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+#header {
+    height:90px;
+    background-color:#FFCC33;
+
+}
+#main {
+    width:1000px;
+    overflow:hidden;
+    height:auto;
+}
+#column_left {
+    width:200px;
+    background-color:#5B7444;
+    height:450px;
+    float:left;
+}
+#column_right {
+    width:800px;
+    background-color:#47697E;
+    height:450px;
+    float:right;
+}
+#footer {
+    height:20px;
+    background-color:#688B9A;
+}
